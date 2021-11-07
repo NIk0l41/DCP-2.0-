@@ -1,0 +1,13 @@
+So, my first thoughts are nesting loops.
+
+//int counter = 0;
+//for (int i = 0; i < N; i++){
+	for (int j = 0; j < N; j++){
+		if (array[i, j] == X)
+			counter += 1;
+	}
+}
+
+Yep! Done.
+Just needed to use a few 'for' loops.
+Created a class to return the values and clean it all up.
