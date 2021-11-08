@@ -1,0 +1,13 @@
+C:\Users\Nic\Desktop\Github Repos\DCP-2.0-\DCP-075\DCP-075\bin\Debug\netcoreapp3.1\DCP-075.exe
+C:\Users\Nic\Desktop\Github Repos\DCP-2.0-\DCP-075\DCP-075\bin\Debug\netcoreapp3.1\DCP-075.deps.json
+C:\Users\Nic\Desktop\Github Repos\DCP-2.0-\DCP-075\DCP-075\bin\Debug\netcoreapp3.1\DCP-075.runtimeconfig.json
+C:\Users\Nic\Desktop\Github Repos\DCP-2.0-\DCP-075\DCP-075\bin\Debug\netcoreapp3.1\DCP-075.runtimeconfig.dev.json
+C:\Users\Nic\Desktop\Github Repos\DCP-2.0-\DCP-075\DCP-075\bin\Debug\netcoreapp3.1\DCP-075.dll
+C:\Users\Nic\Desktop\Github Repos\DCP-2.0-\DCP-075\DCP-075\bin\Debug\netcoreapp3.1\DCP-075.pdb
+C:\Users\Nic\Desktop\Github Repos\DCP-2.0-\DCP-075\DCP-075\obj\Debug\netcoreapp3.1\DCP-075.csprojAssemblyReference.cache
+C:\Users\Nic\Desktop\Github Repos\DCP-2.0-\DCP-075\DCP-075\obj\Debug\netcoreapp3.1\DCP-075.AssemblyInfoInputs.cache
+C:\Users\Nic\Desktop\Github Repos\DCP-2.0-\DCP-075\DCP-075\obj\Debug\netcoreapp3.1\DCP-075.AssemblyInfo.cs
+C:\Users\Nic\Desktop\Github Repos\DCP-2.0-\DCP-075\DCP-075\obj\Debug\netcoreapp3.1\DCP-075.csproj.CoreCompileInputs.cache
+C:\Users\Nic\Desktop\Github Repos\DCP-2.0-\DCP-075\DCP-075\obj\Debug\netcoreapp3.1\DCP-075.dll
+C:\Users\Nic\Desktop\Github Repos\DCP-2.0-\DCP-075\DCP-075\obj\Debug\netcoreapp3.1\DCP-075.pdb
+C:\Users\Nic\Desktop\Github Repos\DCP-2.0-\DCP-075\DCP-075\obj\Debug\netcoreapp3.1\DCP-075.genruntimeconfig.cache

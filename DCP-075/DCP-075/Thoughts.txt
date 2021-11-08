@@ -1,0 +1,36 @@
+Well, there is a limited number of
+possible subsequent increasing arrays (PSIAs).
+
+-Input-
+X = [a, b, c, d, e, f, g]
+at max, the number of PSIAs is limited to X.length().
+
+Therefore, we can loop through, nested.
+X[i] > X[i - 1]
+for (int i = 0; i < X.length; i++){}
+	if (i == 0){
+		
+	}
+}
+
+1) Create a PSIA with X[i] being Y[0] and X[i + n]
+	being Y[1]
+
+
+
+
+1231) oKAY, fuck this question is going to haunt me.
+
+Essentially, I have to stop.
+My current algorithm fails to consider groups of
+	numbers as 'starting points' to branch off of.
+
+	Branches...
+
+
+3018) Ok! So, I'mma leave this here.
+	Tried counting instead of returning an array, since it
+	is easier, but I just got an output of 223 and I just
+	need to take a break.
+
+	My god, this is a hard Q, but it got me thinking!
