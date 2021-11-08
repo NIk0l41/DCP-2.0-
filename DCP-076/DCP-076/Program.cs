@@ -14,8 +14,6 @@ namespace DCP_076
                 {
                     MatrixData data = new MatrixData(choice);
                     int[] dimensions = { data.nColumn, data.mRow };
-                    int nColumn = dimensions[0];
-                    int mRow = dimensions[1];
                     char[,] matrix = data.matrix;
                     int[,] matrixInt = data.matrixInt;
 
