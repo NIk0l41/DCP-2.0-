@@ -40,8 +40,26 @@ namespace DCP_078
         }
 
         public void MergeLinkedList(LinkedList list) {
-            
+            int len = Length();
+            Node tmp = head;
+            //This takes us to the last item.
+            for (int nodeNumber = 1; nodeNumber < len; nodeNumber++){
+                tmp = tmp.next;
+            }
+            tmp.next = list.head;
+        }
 
+        public void PrintList() {
+            int len = Length();
+            Node tmp = head;
+            for (int nodeNo = 0; nodeNo < len; nodeNo++) {
+                Console.Write(tmp.data);
+                if (nodeNo != len - 1) {
+                    Console.Write(", ");
+                }
+                tmp = tmp.next;
+            }
+            Console.ReadLine();
         }
 
         /// <summary>
