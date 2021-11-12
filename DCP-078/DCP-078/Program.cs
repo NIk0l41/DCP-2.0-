@@ -48,7 +48,7 @@ namespace DCP_078
             }
 
             /// 3) Sort Array Elements
-            //Array.Sort(arrTmp);
+            Array.Sort(arrTmp);
             //PrintArray(arrTmp);
             /// 4) Convert Array to Linked List
             tmp = llist1.head;
