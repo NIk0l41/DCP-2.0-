@@ -1,0 +1,46 @@
+map1[]: (a, b, c)
+map2[]: (d, e, f)
+map3[]: (g, h, i)
+map9[]: (w, x, y, z)
+map1[0] = 0
+map1[1] = b
+
+adh --> map1[0] + map2[0] + map3[2] + map4[3]
+integer --> 0020
+
+slotweights = int[] {3, 3, 3, 4}
+val = ?
+NaryFromInt(9, slotWeights) --> {0, 0, 2, 1}
+NaryFromInt(13, slotWeights) --> {0, 0, 3, 1}
+NaryFromInt(20, slotWeights) --> {0, 1, 2, 0}
+putout = {0, 0,0,0}
+
+static int[] NnaryFromInt(int val, int[] slotWeights) {
+            Console.WriteLine("Nnary " + val);
+            int[] putout = new int[slotWeights.Length];
+            for (int i = slotWeights.Length - 2; i > -1; i--){
+                int[] a = Mod(val, slotWeights[i]);
+                //while (a[0] >= a[1]) {
+                //    a[0] -= a[1];
+                //    putout[i - 1]++;
+                //}
+                val = a[1];
+                putout[i] = a[0];
+            }
+            putout[slotWeights.Length - 1] = val;
+            return putout;
+        }
+
+        static int[] Mod(int val, int weight) {
+            int numTimes = 0;
+            while (val >= weight) {
+                val -= weight;
+                numTimes++;
+            }
+            //if (numTimes >= weight) {
+            //    int[] modIterate = Mod(numTimes, weight);
+            //    numTimes = modIterate[0];
+            //    val = modIterate[1];
+            //}
+            return new int[] { numTimes, val };
+        }

@@ -1,0 +1,14 @@
+
+(9, 3, 1)
+
+val = 12, weights = {3, 3, 3}
+scaledweights = {9, 3, 1}
+int[] output = {0, 0, 0}
+for (int i = 0; i < scaledweights.length; i++){
+	while (val >= scaledweights[i])
+	{
+		val -= scaledweights[i]
+		output[i] += 1;
+	}
+}
+return output;
