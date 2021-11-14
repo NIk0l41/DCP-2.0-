@@ -3,18 +3,29 @@ using System.Text.RegularExpressions;
 
 namespace DCP_081
 {
-    class Program
+    public partial class Program
     {
         static void Main(string[] args)
         {
+            DigitMap map1 = new DigitMap("1", new string[] { " " });
             DigitMap map2 = new DigitMap("2", new string[] { "a", "b", "c"});
             DigitMap map3 = new DigitMap("3", new string[] { "d", "e", "f" });
             DigitMap map4 = new DigitMap("4", new string[] { "g", "h", "i" });
-            DigitMap[] mapping = new DigitMap[] { map2, map3};
+            DigitMap map5 = new DigitMap("5", new string[] { "j", "k", "l" });
+            DigitMap map6 = new DigitMap("6", new string[] { "m", "n", "o" });
+            DigitMap map7 = new DigitMap("7", new string[] { "p", "q", "r", "s" });
+            DigitMap map8 = new DigitMap("8", new string[] { "t", "u", "v" });
+            DigitMap map9 = new DigitMap("9", new string[] { "w", "x", "y", "z" });
+            DigitMap[] mapLibrary = new DigitMap[] { map1, map2, map3, map4, map5, map6, map7, map8, map9};
 
-            string[] input = Regex.Split("23", string.Empty);
+            Console.WriteLine("Enter a sequence of integers.");
+            Console.Write(">");
+            string reader = Console.ReadLine();
+
+            string[] input = Regex.Split(reader, string.Empty);
             input = CullNullStringsInArray(input);
             PrintStringArray(input);
+            DigitMap[] mapping = MapToInput(mapLibrary, input);
             string[] tests = ReturnPossibleLetterCombinations(input, mapping);
             PrintStringArray(tests);
             //PrintStringArray(ReturnPossibleLetterCombinations(input, mapping ));
@@ -43,13 +54,11 @@ namespace DCP_081
             for (int i = 0; i < mapping.Length; i++) {
                 slotWeights[i] = mapping[i].letters.Length;
             }
+            int[] scaledWeights = ScaleWeights(slotWeights);
             for (int i = 0; i < outLen; i++) {
-                Class1 fuckMe = new Class1();
-                int[] scaledWeights = fuckMe.ScaleWeights(slotWeights);
-                int[] nary = fuckMe.NaryFromInt2(i, scaledWeights);
+                int[] nary = NaryFromInt2(i, scaledWeights, slotWeights);
                 //Now that it has nary, it will apply the mapping to each item.
                 //Assum nary = (1, 1) --> "b", "d"
-                //PrintNnary(nary);
                 output[i] = ReturnCombinationString(nary, mapping);
             }
             /// 4) Return output
@@ -93,10 +102,10 @@ namespace DCP_081
             return new int[] { numTimes, val };
         }
 
-        static string ReturnCombinationString(int[] slots, DigitMap[] maps) {
+        static string ReturnCombinationString(int[] nary, DigitMap[] maps) {
             string output = "";
-            for (int i = 0; i < slots.Length; i++) {
-                output += maps[i].letters[slots[i]];
+            for (int i = 0; i < nary.Length; i++) {
+                output += maps[i].letters[nary[i]];
             }
             return output;
         }
