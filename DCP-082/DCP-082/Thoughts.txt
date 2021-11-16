@@ -1,0 +1,7 @@
+So...
+readN(n)
+
+str = "Hello World"
+three read7(str) = "Hello w", "orld", ""
+
+Not really sure what this is asking for tbh.
