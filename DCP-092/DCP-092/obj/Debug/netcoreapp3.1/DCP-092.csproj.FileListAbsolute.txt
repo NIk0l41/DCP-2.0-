@@ -1,0 +1,13 @@
+C:\Users\Nic\Desktop\Github Repos\DCP-2.0-\DCP-092\DCP-092\obj\Debug\netcoreapp3.1\DCP-092.csprojAssemblyReference.cache
+C:\Users\Nic\Desktop\Github Repos\DCP-2.0-\DCP-092\DCP-092\obj\Debug\netcoreapp3.1\DCP-092.AssemblyInfoInputs.cache
+C:\Users\Nic\Desktop\Github Repos\DCP-2.0-\DCP-092\DCP-092\obj\Debug\netcoreapp3.1\DCP-092.AssemblyInfo.cs
+C:\Users\Nic\Desktop\Github Repos\DCP-2.0-\DCP-092\DCP-092\obj\Debug\netcoreapp3.1\DCP-092.csproj.CoreCompileInputs.cache
+C:\Users\Nic\Desktop\Github Repos\DCP-2.0-\DCP-092\DCP-092\bin\Debug\netcoreapp3.1\DCP-092.exe
+C:\Users\Nic\Desktop\Github Repos\DCP-2.0-\DCP-092\DCP-092\bin\Debug\netcoreapp3.1\DCP-092.deps.json
+C:\Users\Nic\Desktop\Github Repos\DCP-2.0-\DCP-092\DCP-092\bin\Debug\netcoreapp3.1\DCP-092.runtimeconfig.json
+C:\Users\Nic\Desktop\Github Repos\DCP-2.0-\DCP-092\DCP-092\bin\Debug\netcoreapp3.1\DCP-092.runtimeconfig.dev.json
+C:\Users\Nic\Desktop\Github Repos\DCP-2.0-\DCP-092\DCP-092\bin\Debug\netcoreapp3.1\DCP-092.dll
+C:\Users\Nic\Desktop\Github Repos\DCP-2.0-\DCP-092\DCP-092\bin\Debug\netcoreapp3.1\DCP-092.pdb
+C:\Users\Nic\Desktop\Github Repos\DCP-2.0-\DCP-092\DCP-092\obj\Debug\netcoreapp3.1\DCP-092.dll
+C:\Users\Nic\Desktop\Github Repos\DCP-2.0-\DCP-092\DCP-092\obj\Debug\netcoreapp3.1\DCP-092.pdb
+C:\Users\Nic\Desktop\Github Repos\DCP-2.0-\DCP-092\DCP-092\obj\Debug\netcoreapp3.1\DCP-092.genruntimeconfig.cache
